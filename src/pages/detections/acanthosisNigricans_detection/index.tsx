@@ -183,7 +183,14 @@ function Index() {
             </div>
           );
         default:
-          return null;
+          return (
+            <div className="border border-gray-300 rounded-lg p-4 shadow-md w-full md:w-1/2 lg:w-1/3 hover:bg-black hover:text-white transition duration-300 ease-in-out">
+               <h2 className="text-lg font-bold mb-4">Detection Results</h2>
+              <div className="text-3xl text-red-600 p-10  mb-10 text-center">
+                  Enter valid image!
+              </div>
+            </div>
+          );
       }
     }
     return null;

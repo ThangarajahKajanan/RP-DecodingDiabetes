@@ -208,7 +208,7 @@ function Index() {
             </div>
             
           ) : (
-            <div className="text-gray-600">No further instructions</div>
+            <div className="text-red-600  text-3xl">Enter valid image</div>
           )}
         </div>
       );
@@ -221,6 +221,7 @@ function Index() {
 
 
 
+  
   return (
     <div className="flex flex-col min-h-screen">
       <Nav />
